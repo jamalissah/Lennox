@@ -1,19 +1,19 @@
 {
-  "name": "netlify",
+  "name": "lennox",
   "version": "1.0.0",
+  "description": "Lennox Beauty Store",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^6.5.0",
-    "netlify": "^13.1.14",
-    "netlify-lambda": "^2.0.16",
-    "serverless-http": "^3.2.0"
+    "mongodb": "^6.5.0"
   },
-  "devDependencies": {},
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
 }
